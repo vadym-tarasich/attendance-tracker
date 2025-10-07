@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc",
+    "start": "pnpm tsc && nodemon --watch . index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "@fastify/express": "^4.0.2",
+    "@fastify/static": "^8.2.0",
+    "@types/node": "^24.5.2",
+    "fastify": "^5.6.0",
+    "lowdb": "^7.0.1",
+    "vite": "^7.1.6"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6"
+  }
+}
